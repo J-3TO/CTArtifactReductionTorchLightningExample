@@ -4,11 +4,11 @@ Example training script to train the U-Net for artifact reduction using the torc
 
 ## Overview
 
-networks.py/utils.py - The model and dataloader/utility functions are defined here.
-test/val/train.csv - Dataframes with the filenames of the different data splits
-test_pipeline.ipynb - Notebook to test the training pipeline and do some hyperparemeter tuning.
-train.py - Script which contains the actual training loop. Hyperparameters can be passed as command-line arguments
-run.sh - Executes train.py with command-line arguments; Makes it easy to test several hyperparameters.
+- networks.py/utils.py - The model and dataloader/utility functions are defined here.
+- test/val/train.csv - Dataframes with the filenames of the different data splits
+- test_pipeline.ipynb - Notebook to test the training pipeline and do some hyperparemeter tuning.
+- train.py - Script which contains the actual training loop. Hyperparameters can be passed as command-line arguments
+- run.sh - Executes train.py with command-line arguments; Makes it easy to test several hyperparameters.
 
 ## How to use
 
