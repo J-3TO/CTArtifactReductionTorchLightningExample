@@ -1,6 +1,7 @@
 # TorchLightningExample
 
 Example training script to train the U-Net for artifact reduction using the torch [lightning framwork](https://lightning.ai/docs/pytorch/stable/).
+The [RSNA PE challenge](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/data) dataset was used here.
 
 ## Overview
 
