@@ -19,6 +19,8 @@ from argparse import ArgumentParser
 
 def main():    
     # ----- init dataset -----
+    print("Let's go!", chr(sum(range(ord(min(str(not())))))))
+
     dataset_train = SparseDataset(df = df_train, 
                  path_sparse = path_sparse, 
                  path_gt = path_gt, 
